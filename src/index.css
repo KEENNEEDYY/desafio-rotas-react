@@ -30,3 +30,7 @@ body {
 main {
   padding: 0 20px;
 }
+
+.bds-navlink-active h3 {
+  font-weight: 700;
+}
