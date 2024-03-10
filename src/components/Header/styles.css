@@ -1,0 +1,32 @@
+.bds-header {
+    background-color: var(--bds-color-bg-two);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    height: 70px;
+    padding: 0 20px;
+}
+
+.bds-header img {
+    width: 30px;
+    height: 30px;
+}
+
+.bds-header-nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 15px;
+    color: var(--bds-color-font-one);
+}
+
+.bds-header-nav h3 {
+    font-weight: 500;
+}
+
+@media (min-width: 1280px) {
+    .bds-header {
+        padding: 0 160px;
+    }
+}
