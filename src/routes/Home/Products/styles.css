@@ -1,0 +1,22 @@
+.bds-products-main-container {
+    padding: 0 20px;
+    margin-top: 20px;
+}
+
+.bds-products-container {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    margin-top: 20px;
+}
+
+.bds-products-container h3 {
+    font-weight: 500;
+    font-size: 16px;
+}
+
+@media (min-width:1280px) {
+    .bds-products-main-container {
+        padding: 0 160px;
+    }
+}

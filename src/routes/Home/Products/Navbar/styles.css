@@ -1,0 +1,14 @@
+.bds-navbar-container {
+    background-color: var(--bds-color-bg-three);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    height: 60px;
+    padding: 0 20px;
+    gap: 20px;
+}
+
+.bds-navbar-container h3 {
+    font-size: 16px;
+    font-weight: 500;
+}
