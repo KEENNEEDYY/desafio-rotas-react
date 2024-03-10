@@ -1,0 +1,15 @@
+.bds-homebody-container {
+    padding: 0 20px;
+    margin-top: 20px;
+}
+
+.bds-homebody-container h1 {
+    font-size: 24px;
+}
+
+
+@media (min-width:1280px) {
+    .bds-homebody-container {
+        padding: 0 160px;
+    }
+}
